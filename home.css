@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;0,400;0,600;0,700;0,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: "Montserrat", Sans-serif;
+	margin: 0;
+}
+
+
+.menu_geral {
+	/* max-width: 960px; */
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+	font-size: 18px;
+	font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: uppercase;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.navbar{
+    /* padding-top: 8vh; */
+    list-style: none;
+    position: absolute;
+    top: 12.2vh;
+    left: 0vw;
+    width: 16.5vw;
+    height: 72vh;
+    background-color: black;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.navbar_ativo{
+    left: -200vw;
+    transition: 200ms;
+    
+}
+
+header {
+	background-color: black;
+	color: #fff;
+	padding: 1% 0;
+	margin: 0;
+}
+
+.logo {
+	margin-left: 12%;
+}
+
+.btn-menu{
+    margin-right: 8vw;
+    background-color: transparent;
+    color: white;
+    border: solid 1px transparent;
+	margin-left: 2%;
+	align-items: center;
+	
+}
+.btn-menu:hover{
+	color: beige;
+}
+
+ul.lista {
+    display: block;
+
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ul.lista a{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+ul.menu_nav{
+    margin-top: 6%;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin: 0 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav a:hover {
+	color: beige;
+    text-decoration: underline;
+    text-decoration-color: beige;
+    text-decoration-thickness: 0.2px;
+}
+
+.slide{
+	margin: 0;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.cards{
+    align-items: center;
+}
+
+.botao-imagem img {
+    background-color: transparent;
+    margin-left: 2%; 
+    width: 30%; 
+    border-radius: 15px;
+  }
+.botao-imagem img:hover {
+    opacity: 80%;
+}
+
+/*----------------------------- para botar texto com hover nas imagens botoes
+/* .botao-imagem p{
+    position: relative;
+    margin-left: 12vw;
+    margin-top: -50vh;
+    color: transparent;
+} */
+ #slidehis{
+    background-image: url("assets/img/skatecrt.psd");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 110vh;
+ }
+ #slidehis h1{
+   color: beige;
+   font-family: 'Segoe UI';
+   /* text-transform: uppercase; */
+   font-size: 50px;
+   margin-left: 108px;
+   font-weight: 500;
+ }
+ #slidehis h2{
+   color: white;
+   font-family: 'Segoe UI';
+   text-transform: uppercase;
+   margin-top: -28px;
+   margin-left: 105px;
+   font-size: 78px;
+   font-weight: 700;
+
+ }
+
+ #slidehis p{
+    color: white;
+    font-family: 'Segoe UI';
+    margin-left: 105px;
+    margin-top: 110px;
+    font-size: 20px;
+    font-weight: 350;
+    text-decoration: none;
+ }
+
+ #slidehis a{
+    margin-top: 13px;
+    text-decoration: none;
+
+
+ }
+ 
+
+
+/*-------------------------------camisetas venda */
+
+.vendaprods{
+    display: flex;
+    justify-content: center;
+}
+
+ #camiseta222 img {
+	max-width: 100%;
+    align-items: center;
+}
+
+#camiseta222 {
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	width: 300px;
+	text-align: center;
+}
+
+#camiseta222 img {
+	max-width: 100%;
+    border: none;
+    border-radius: 20px;
+}
+#camiseta222 img:hover {
+    opacity: 90%;
+}
+
+#camiseta222 h2 {
+    font-family: "Montserrat" ;
+	font-size: 20px;
+    font-weight:900;
+	margin-top: 5px;
+}
+
+#camiseta222 p {
+	font-size: 18px;
+    font-weight: 600;
+	margin-top: -1px;
+}
+
+
+/*--------------------------------------camisetas venda */
+
+footer {
+    background-color: #eae9e9;
+	color: #fff;
+	padding: 20px 0;
+}
+
+img#logordp{
+    margin-left: 15%;
+}
+hr{
+    opacity: 20%;
+}
