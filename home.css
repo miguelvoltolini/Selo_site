@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;0,400;0,600;0,700;0,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@1000,100;0,200;0,300;0,400;0,600;0,700;0,800&display=swap');
 
 *{
     margin: 0;
@@ -29,10 +29,9 @@ body {
     /* padding-top: 8vh; */
     list-style: none;
     position: absolute;
-    top: 12.2vh;
+    top: 12.5vh;
     left: 0vw;
-    width: 16.5vw;
-    height: 72vh;
+    height: 67vh;
     background-color: black;
     transition: 200ms;
     cursor: pointer;
@@ -53,6 +52,7 @@ header {
 
 .logo {
 	margin-left: 12%;
+    
 }
 
 .btn-menu{
@@ -62,6 +62,7 @@ header {
     border: solid 1px transparent;
 	margin-left: 2%;
 	align-items: center;
+    cursor: pointer;
 	
 }
 .btn-menu:hover{
@@ -70,13 +71,11 @@ header {
 
 ul.lista {
     display: block;
-
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
 ul.lista a{
     font-size: 25px;
-    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -109,6 +108,7 @@ nav a:hover {
 
 .slide{
 	margin: 0;
+    width: 100%;
 }
 
 h1 {
@@ -216,30 +216,114 @@ p {
 }
 
 #camiseta222 h2 {
-    font-family: "Montserrat" ;
+    font-family: "Montserrat", sans-serif ;
 	font-size: 20px;
-    font-weight:900;
+    font-weight:700;
 	margin-top: 5px;
 }
 
 #camiseta222 p {
 	font-size: 18px;
-    font-weight: 600;
 	margin-top: -1px;
 }
 
 
 /*--------------------------------------camisetas venda */
 
+/*----------------------------------- rodape */
+
 footer {
     background-color: #eae9e9;
 	color: #fff;
-	padding: 20px 0;
+	padding: 11% 0;
 }
 
 img#logordp{
-    margin-left: 15%;
+    position: absolute;
+    margin-left: 7vw;
+    margin-top: -23vh;
+    height: 25vh;
 }
+p#plogo{
+    color: rgb(128, 128, 128) ;
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: -14.2vh;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+h1#h1logo{
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: -12vh;
+    font-size: 1.7rem;
+    color: gray;
+    font-weight: 700;
+    font-family: "Montserrat", Sans-serif;
+    text-transform: uppercase;
+}
+h2#h2logo{
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: -10.9vh;
+    color: gray;
+    font-weight: 200;
+    font-family: "Montserrat", Sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+img#icntelef{
+    position: absolute;
+    margin-left: 12.5vw;
+    margin-top: 10vh;
+    height: 9vh;
+}
+img#icnwpp{
+    position: absolute;
+    height: 9vh;
+    margin-top: 10vh;
+    margin-left: 45vw;
+}
+img#icninsta{
+    position: absolute;
+    height: 7.2vh;
+    margin-top: -3vh;
+    margin-left: 75.2vw;
+}
+img#icnfb{
+    position: absolute;
+    height: 7.2vh;
+    margin-top: -3vh;
+    margin-left: 79.2vw;
+}
+img#icnyt{
+    position: absolute;
+    height: 7.2vh;
+    margin-top: -3vh;
+    margin-left: 83.2vw;
+}
+img#icnemail{
+    position: absolute;
+    height: 9vh;
+    margin-top: 10vh;
+    margin-left: 75vw;
+}
+
+
+
+/*----------------------------------- rodape */
 hr{
     opacity: 20%;
+}
+hr#hrrdp{
+    position: absolute;
+    margin-left: 19.4vw;
+    margin-top: -18vh;
+    opacity: 100%;
+    height: 120px;
+    width: 1.8px;
+    background-color: rgba(128, 128, 128, 0.81) ;
+    border: none;
 }
