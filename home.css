@@ -120,9 +120,102 @@ p {
 	line-height: 1.5;
 }
 
+
+
+/*------------------------------------------------CHAMADA CARDS----*/
 .cards{
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+/*---------------------*/    
 }
+img#cartoes{
+    position: absolute;
+    margin-left: -37vw;
+}
+h1#h1i1{
+    position: absolute;
+    font-size: 1.1rem;
+    margin-left: -31.5vw;
+    margin-top: 2.5vh;
+    font-family: "Montserrat", Sans-serif;
+    color: #5A5A5A;
+}
+p#pi1{
+    position: absolute;
+    font-size: 1.1rem;
+    margin-left: -31.5vw;
+    margin-top: 2.5vh;
+    font-family: "Montserrat", Sans-serif;
+    color: #acabab;
+}
+/*---------------------*/    
+img#retorno{
+    position: absolute;
+    position: absolute;
+    margin-left: -18vw;
+}
+h1#h1i2{
+    position: absolute;
+    font-size: 1.1rem;
+    margin-left: -12.5vw;
+    margin-top: 2.5vh;
+    font-family: "Montserrat", Sans-serif;
+    color: #5A5A5A;
+}
+p#pi2{
+    position: absolute;
+    font-size: 1.1rem;
+    margin-left: -12.5vw;
+    margin-top: 2.5vh;
+    font-family: "Montserrat", Sans-serif;
+    color: #acabab;
+}
+/*---------------------*/    
+img#frete{
+    position: absolute;
+    position: absolute;
+    margin-left: 0vw;
+}
+h1#h1i3{
+    position: absolute;
+    font-size: 1.1rem;
+    margin-left: 5.5vw;
+    margin-top: 2.5vh;
+    font-family: "Montserrat", Sans-serif;
+    color: #5A5A5A;
+}
+p#pi3{
+    position: absolute;
+    font-size: 1.1rem;
+    margin-left: 5.5vw;
+    margin-top: 2.5vh;
+    font-family: "Montserrat", Sans-serif;
+    color: #acabab;
+}
+/*---------------------*/    
+img#desconto{
+    position: absolute;
+    margin-left: 20vw;
+}
+h1#h1i4{
+    position: absolute;
+    font-size: 1.1rem;
+    margin-left: 25vw;
+    margin-top: 2.5vh;
+    font-family: "Montserrat", Sans-serif;
+    color: #5A5A5A;
+}
+p#pi4{
+    position: absolute;
+    font-size: 1.1rem;
+    margin-left: 25vw;
+    margin-top: -3vh;
+    font-family: "Montserrat", Sans-serif;
+    color: #acabab;
+}
+/*------------------------------------------------CHAMADA CARDS----*/
+
 
 .botao-imagem img {
     background-color: transparent;
@@ -277,14 +370,14 @@ h2#h2logo{
 img#icntelef{
     position: absolute;
     margin-left: 9.8vw;
-    margin-top: 4vh;
-    height: 9vh;
+    margin-top: 5.5vh;
+    height: 7.5vh;
 }
 h1#h1telef{
     position: absolute;
     margin-left: 15.3vw;
     margin-top: 7vh;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #696969;
     font-weight: 600;
     font-family: "Montserrat", Sans-serif;
@@ -293,22 +386,22 @@ h2#h2telef{
     position: absolute;
     margin-left: 15.3vw;
     margin-top: 10.8vh;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #696969;
     font-family: "Montserrat", Sans-serif;
 }
 
 img#icnwpp{
     position: absolute;
-    height: 9vh;
-    margin-top: 4vh;
+    height: 7.5vh;
+    margin-top: 5.5vh;
     margin-left: 40vw;
 }
 h1#h1wpp{
     position: absolute;
     margin-left: 45vw;
     margin-top: 7vh;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #696969;
     font-weight: 600;
     font-family: "Montserrat", Sans-serif;
@@ -317,22 +410,22 @@ h2#h2wpp{
     position: absolute;
     margin-left: 45vw;
     margin-top: 10.8vh;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #696969;
     font-family: "Montserrat", Sans-serif;
 }
 
 img#icnemail{
     position: absolute;
-    height: 10vh;
-    margin-top: 4vh;
+    height: 8.5vh;
+    margin-top: 5.5vh;
     margin-left: 70vw;
 }
 h1#h1email{
     position: absolute;
     margin-left: 75.5vw;
     margin-top: 6.7vh;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color:#696969;
     font-weight: 600;
     font-family: "Montserrat", Sans-serif;
@@ -341,7 +434,7 @@ h2#h2email{
     position: absolute;
     margin-left: 75.5vw;
     margin-top: 10.4vh;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #696969;
     font-family: "Montserrat", Sans-serif;
 }
@@ -393,7 +486,7 @@ h2#h2icns{
 p#plink{
     position: absolute;
     margin-top: -24vh;
-    margin-left: 41vw;
+    margin-left: 40vw;
     font-size: 1.4rem;
     font-weight: 600;
     color: #696969;
@@ -403,7 +496,7 @@ p#plink{
 a#plki{
     position: absolute;
     margin-top: -20vh;
-    margin-left: 41vw;
+    margin-left: 40vw;
     text-decoration: none;
     color: #696969;
     font-family: "Montserrat", Sans-serif;
@@ -411,7 +504,7 @@ a#plki{
 a#plkh{
     position: absolute;
     margin-top: -19vh;
-    margin-left: 41vw;
+    margin-left: 40vw;
     text-decoration: none;
     color: #696969;
     font-family: "Montserrat", Sans-serif;
@@ -419,7 +512,7 @@ a#plkh{
 a#plkc{
     position: absolute;
     margin-top: -18vh;
-    margin-left: 41vw;
+    margin-left: 40vw;
     text-decoration: none;
     color: #696969;
     font-family: "Montserrat", Sans-serif;
@@ -453,5 +546,19 @@ hr#hrrdp{
     background-color: rgba(128, 128, 128, 0.81) ;
     border: none;
 }
+div#pdireitos{
+    position: absolute;
+    margin-left: 39vw;
+    margin-top: 23vh;
+    font-size: 0.7rem;
+    color: #696969;
+}
+#adir{
+color: black;
+}
+#flaticon{
+    color: black;
+}
 
-/* #696969  COR ICN  */
+/* #696969  COR ICN FOOTER  */
+/* #5A5A5A COR ICN CHAMADA  */
