@@ -50,7 +50,7 @@ header {
 }
 
 .logo {
-	margin-left: 13.5%;
+	margin-left: 11.5%;
     
 }
 
@@ -105,9 +105,11 @@ nav a:hover {
     text-decoration-thickness: 0.2px;
 }
 
-.slide{
+
+.slide img{
 	margin: 0;
     width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -121,100 +123,40 @@ p {
 
 
 
-/*------------------------------------------------CHAMADA CARDS----*/
-.cards{
+/*======================================================== CHAMADA CARDS ========*/
+.cards {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-/*---------------------*/    
-}
-img#cartoes{
-    position: absolute;
-    margin-left: -37vw;
-}
-
-h1#h1i1{
-    position: absolute;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .imagem_cards {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .div_text_cards {
+    margin-left: 10px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.1rem;
-    margin-left: -31.5vw;
-    margin-top: 2.5vh;
-    font-family: "Montserrat", Sans-serif;
     color: #5A5A5A;
-}
-p#pi1{
-    position: absolute;
+  }
+  
+  p {
+    margin: 0;
     font-size: 1.1rem;
-    margin-left: -31.5vw;
-    margin-top: 2.5vh;
     font-family: "Montserrat", Sans-serif;
     color: #acabab;
-}
-/*---------------------*/    
-img#retorno{
-    position: absolute;
-    position: absolute;
-    margin-left: -18vw;
-}
-h1#h1i2{
-    position: absolute;
-    font-size: 1.1rem;
-    margin-left: -12.5vw;
-    margin-top: 2.5vh;
-    font-family: "Montserrat", Sans-serif;
-    color: #5A5A5A;
-}
-p#pi2{
-    position: absolute;
-    font-size: 1.1rem;
-    margin-left: -12.5vw;
-    margin-top: 2.5vh;
-    font-family: "Montserrat", Sans-serif;
-    color: #acabab;
-}
-/*---------------------*/    
-img#frete{
-    position: absolute;
-    position: absolute;
-    margin-left: 0vw;
-}
-h1#h1i3{
-    position: absolute;
-    font-size: 1.1rem;
-    margin-left: 5.5vw;
-    margin-top: 2.5vh;
-    font-family: "Montserrat", Sans-serif;
-    color: #5A5A5A;
-}
-p#pi3{
-    position: absolute;
-    font-size: 1.1rem;
-    margin-left: 5.5vw;
-    margin-top: 2.5vh;
-    font-family: "Montserrat", Sans-serif;
-    color: #acabab;
-}
-/*---------------------*/    
-img#desconto{
-    position: absolute;
-    margin-left: 20vw;
-}
-h1#h1i4{
-    position: absolute;
-    font-size: 1.1rem;
-    margin-left: 25vw;
-    margin-top: 2.5vh;
-    font-family: "Montserrat", Sans-serif;
-    color: #5A5A5A;
-}
-p#pi4{
-    position: absolute;
-    font-size: 1.1rem;
-    margin-left: 25vw;
-    margin-top: 2.5vh;
-    font-family: "Montserrat", Sans-serif;
-    color: #acabab;
-}
-/*------------------------------------------------CHAMADA CARDS----*/
+  }
+/*======================================================== CHAMADA CARDS ========*/
 
 
 .botao-imagem img {
@@ -228,7 +170,7 @@ p#pi4{
     opacity: 80%;
 }
 
-/*----------------------------- para botar texto com hover nas imagens botoes
+/*========================================================  para botar texto com hover nas imagens botoes
 /* .botao-imagem p{
     position: relative;
     margin-left: 12vw;
@@ -237,7 +179,7 @@ p#pi4{
 } */
 
 
- /* --------------------------------------SLIDES HISTORIA----------------- */
+/*============================================== SLIDE HISTORIA =============*/
  #slidehis{
     background-image: url("assets/img/Composição_site/skatecrt.psd");
     background-repeat: no-repeat;
@@ -268,7 +210,7 @@ p#pi4{
     color: white;
     font-family: 'Segoe UI';
     margin-left: 105px;
-    margin-top: 110px;
+    margin-top: 270px;
     font-size: 20px;
     font-weight: 350;
     text-decoration: none;
@@ -281,9 +223,9 @@ p#pi4{
     margin-top: 25px;
     font-weight: 600;
  }
- /* --------------------------------------SLIDES HISTORIA----------------- */
+/*=============================================== SLIDE HISTORIA =============*/
 
-/*-------------------------------camisetas venda */
+/*======================================================== camisetas venda */
 
 .vendaprods{
     display: flex;
@@ -326,9 +268,9 @@ p#pi4{
 }
 
 
-/*--------------------------------------camisetas venda */
+/*======================================================== camisetas venda */
 
-/*----------------------------------- rodape */
+/*======================================================== rodape */
 
 footer {
     background-color: #eae9e9;
@@ -543,10 +485,7 @@ h2#h2pfin{
     font-size: 1rem;
     color: #919090;
 }
-/*----------------------------------- rodape */
-hr{
-    opacity: 20%;
-}
+
 hr#hrrdp{
     position: absolute;
     margin-left: 19.4vw;
@@ -571,6 +510,145 @@ color: black;
 #flaticon{
     color: black;
 }
+
+/*======================================================== rodape */
+hr{
+    opacity: 20%;
+}
+/*====================================================  MIDIA QUARY  ======================*/
+
+@media (max-width: 768px) {
+
+    html{
+        width: 100%;
+    }
+/*=========================== MENU ====================*/
+    .menu_geral {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        position: static;
+        height: auto;
+        background-color: transparent;
+        display: none;
+    }
+
+    .navbar_ativo {
+        display: block;
+        left: 0;
+        height: 100%;
+        background-color: black;
+    }
+
+    .btn-menu {
+        display: block;
+        margin-right: 0;
+        margin-top: 3%;
+        margin-bottom: 10px;
+    }
+
+    ul.menu_nav {
+        display: none;
+    }
+
+    .logo {
+        margin-top: -3%;
+        margin-left: 5%;
+        
+    }
+/*=========================== MENU ====================*/
+
+/*=========================== CARDS ====================*/
+.row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagem_cards {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 10px;
+    text-align: center; 
+
+  }
+  
+  .div_text_cards {
+   margin-top: 10px;  
+  }
+
+  h1{
+    font-size: 0.9rem;
+  }
+  p{
+    font-size: 0.9rem;
+  }
+
+/*=========================== CARDS ====================*/
+
+/*=========================== BOTÃO IMAGENS ============*/
+.botao-imagem{
+    flex-direction: column;
+}
+
+.botao-imagem img{
+    margin: 5%;
+    margin-top: -3%;
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+}
+/*=========================== BOTÃO IMAGENS ============*/
+
+/*=========================== SLIDE ====================*/
+    #slidehis {
+        height: 60vh;
+    
+    }
+
+    #slidehis h1 {
+        color: beige;
+        font-family: 'Segoe UI';
+        font-size: 25px;
+        margin-right: 20px;
+        font-weight: 500;
+        text-align: end;
+        }
+
+    #slidehis h2 {
+        color: white;
+        font-family: 'Segoe UI';
+        text-transform: uppercase;
+        margin-top: -18px;
+        margin-right: 20px;
+        font-size: 45px;
+        font-weight: 700;
+        text-align: end;
+    }
+
+    #slidehis p {
+        color: white;
+        font-family: 'Segoe UI';    
+        margin-left: 20px;
+        margin-top: 100px;
+        font-size: 12px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    #slidehis a {
+        text-decoration: none;
+    }
+
+    p#psli {
+        margin-top: 25px;
+        font-weight: 600;
+    }
+/*=========================== SLIDE ====================*/
+}
+/*=============================================================  MIDIA QUARY  ======================*/
 
 /* #696969  COR ICN FOOTER  */
 /* #5A5A5A COR ICN CHAMADA  */
